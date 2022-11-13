@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+
+  // Dynamic date to show in footer
+  date: Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
